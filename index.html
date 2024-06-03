@@ -8,7 +8,6 @@
     <!-- Icono de web pendiente (retrato minimalista o símbolo personal) -->
     <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <style></style>
     <script src="scripts.js"></script>
 </head>
 
@@ -16,10 +15,10 @@
     <h1>Hola Mundo</h1>
     <!--Barra de navegación, si la longitud lo acompaña que siga al scroll del usuario-->
     <nav class="nav-bar">
-        <a class="button-nav" href="#inicio">Inicio</a>
+        <button class="button-nav" onclick="topFunction()">Inicio</button>
         <a class="button-nav" href="#formacion">Formación</a>
         <a class="button-nav" href="#proyectos">Proyectos</a>
-        <a class="button-nav" href="#sobre-el-nerd">Sobre el Nerd</a>
+        <a class="button-nav" href="about.html">Sobre el Nerd</a>
         <a class="button-nav" href="#contacto">Contacto</a>
         <a class="button-nav" href="">Descargar CV</a>
     </nav>
@@ -35,6 +34,8 @@
             </p>
 
             <aside>
+                <h3>Experiencia</h3>
+
                 <h3>Educación</h3>
                 <ul>
                     <li>2 años de estudio en Grado en Ingeniería Informática</li>
@@ -45,8 +46,16 @@
                 <ul>
                     <li>Programación en Python, Java, C, C++</li>
                     <li>Desarrollo web con HTML, CSS y JavaScript</li>
-                    <li>Manejo de bases de datos SQL</li>
+                    <li>Manejo básico de bases de datos SQL</li>
                 </ul>
+
+                <h3>Aprendiendo</h3>
+                <ul>
+                    <li>Diseño de páginas web con HTML, CSS y JavaScript</li>
+                    <li>Manejo y configuración de sistemas Linux</li>
+                </ul>
+
+                
             </aside>
         </section>
         
@@ -55,15 +64,17 @@
             <p>Desde proyectos universitarios hasta mis proyectos profesionales y personales. Aquí encontrarás los frutos de mi dedicación.</p>
             <h3>Destacados</h3>
             <!--Proyectos principales (posible añadir un slider horizontal para mostar varios)-->
-            <button>Ver más</button>
+            <button onclick="window.location.href='projects.html'">Ver más</button>
         </section>    
     </main>
-
+    
     <footer class="pie-web">
         <button onclick="topFunction()">Inicio</button>
-        <a class="button-social-media" target="_blank" rel="noopener noreferrer" href="https://github.com/Saturno10">Github</a>
+        <a class="button-social-media" target="_blank" rel="noopener noreferrer" href="https://github.com/Saturno10">
+            <img class="social-media-logo" src="media/github.png" alt="github" width="35">
+        </a>
         <a class="button-social-media" target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/alvaro-aledo-tornero">
-            <img class="social-media-logo" src="/media/linkedin.png" alt="linkedin"> 
+            <img class="social-media-logo" src="media/linkedin.png" alt="linkedin" width="35"> 
         </a>
         <a>Sobre el Nerd</a>
         

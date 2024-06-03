@@ -1,6 +1,7 @@
-#social-media-logo {
-    .button-linkedin {
-        max-width: 16%;
-        
-    }
+.button-social-media {
+    text-decoration: none;
+}
+
+.button-social-media:hover {
+    
 }
