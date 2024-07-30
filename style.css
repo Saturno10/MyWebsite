@@ -1,7 +1,96 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(8, 21, 41);
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(9, 31, 46);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1030;
+    display: flex;
+}
+
+.button-title {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.button-nav {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+    border: none;
+    background-color: transparent;
+}
+
+.button-nav:hover {
+    color: rgb(0, 255, 255);
+}
+
+/*.nav-bar {
+    width: 100%;
+    background-color: rgb(9, 31, 46);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1030;
+    display: flex;
+}
+
+.button-title {
+    
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button-nav {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    
+    
+}
+
+.main {
+    padding-top: 0.05%;
+    background-color: rgb(8, 21, 41);
+}
+
+.pie-web{
+    padding-top: 5px;
+    background-color: rgb(9, 31, 46);
+}
+
 .button-social-media {
     text-decoration: none;
 }
 
 .button-social-media:hover {
-    
-}
+    filter: invert(100%);
+}*/
