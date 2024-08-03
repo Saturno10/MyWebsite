@@ -8,7 +8,11 @@
     <!-- Icono de web pendiente (retrato minimalista o símbolo personal) -->
     <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts.js"></script> 
+    
 </head>
 
 <body>
@@ -73,11 +77,48 @@
             </aside>
         </section>
         
+        
+
+
         <section id="proyectos">
             <h2>Proyectos</h2>
             <p>Desde proyectos universitarios hasta mis proyectos profesionales y personales. Aquí encontrarás los frutos de mi dedicación.</p>
             <h3>Destacados</h3>
-            <!--Proyectos principales (posible añadir un slider horizontal para mostar varios)-->
+            <div class="swiper">
+                <div class="slider-proyectos">
+                    <div class="lista-sliders swiper-wrapper">
+                        <div class= "proyecto-slide swiper-slide">
+                            <!--<img src="media/proyecto1.jpg" alt="Proyecto 1" class="proyecto-image">-->
+                            <h4 class="proyecto-name">Portfolio</h4>
+                            <p class="proyecto-description">¡Este mismo portfolio que estás viendo ahora mismo!</p>
+                            <button class="button-proyecto">Ver más</button>
+                            
+                        </div>
+                        <div class= "proyecto-slide swiper-slide">
+                            <!--<img src="media/proyecto2.jpg" alt="Proyecto 2" class="proyecto-image">-->
+                            <h4 class="proyecto-name">Nanofiles</h4>
+                            <p class="proyecto-description">Proyecto de prácticas que usa TCP y UDP para comunicar servidores y usuarios</p>
+                            <button class="button-proyecto">Ver más</button>
+                            
+                        </div>
+                        <div class= "proyecto-slide swiper-slide">
+                            <!--<img src="media/proyecto3.jpg" alt="Proyecto 3" class="proyecto-image">-->
+                            <h4 class="proyecto-name">Procesador de palabras</h4>
+                            <p class="proyecto-description">Un programa de python que dice las sílabas, entonación y rimas de palabras</p>
+                            <button class="button-proyecto">Ver más</button>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            
+
+            
             <button id="ver-mas-proyectos" onclick="window.location.href='projects.html'">Ver más</button>
         </section>    
     </main>
@@ -101,7 +142,11 @@
         </div>
         
         
-    </footer>    
+    </footer>
     
+       
+    
+    
+
 </body>
 </html>
