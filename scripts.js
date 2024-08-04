@@ -3,6 +3,7 @@
         
 
 document.addEventListener('DOMContentLoaded', function () {
+  console.log('Anda, no esperaba verte por aquí...')
   const swiper = new Swiper('.slider-proyectos', {
 
     loop: true,

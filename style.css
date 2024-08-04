@@ -88,8 +88,8 @@ body {
 
 #CV {
     text-decoration: none;
-    border: none;
-    background-color: rgb(0, 255, 255);
+    border: 2px solid rgb(0, 255, 255);
+    background-color: transparent;
     color: white;
     padding: 10px 20px;
     font-size: 20px;
@@ -97,6 +97,12 @@ body {
     margin-top: 20px;
     border-radius: 6px;
     
+}
+
+#CV:hover {
+    background-color: rgb(0, 255, 255);
+    color: black;
+    transition: 0.25s;
 }
 
 #foto-alvaro{
@@ -230,7 +236,8 @@ body {
 #ver-mas-proyectos{
     text-decoration: none;
     border: none;    
-    background-color: rgb(0, 255, 255);
+    background-color: transparent;
+    border: 2px solid rgb(0, 255, 255);
     color: white;
     padding: 10px 20px;
     font-size: 18px;
@@ -239,6 +246,11 @@ body {
     border-radius: 6px;
 }
 
+#ver-mas-proyectos:hover {
+    background-color: rgb(0, 255, 255);
+    color: black;
+    transition: 0.25s;
+}
 
 .pie-web{
     background-color: rgb(9, 31, 46);
