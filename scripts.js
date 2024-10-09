@@ -9,7 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
     loop: true,
     grabCursor: true,
     spaceBetween: 30,
-  
+    allowTouchMove: true,
+    
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    
+    
     
     pagination: {
         el: '.swiper-pagination',

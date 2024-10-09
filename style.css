@@ -54,6 +54,7 @@ body {
 }
 
 .main {
+    
     padding-top: 45px;
     display: flex;
     flex-direction: column;
@@ -121,7 +122,8 @@ body {
     
 }
 
-#formacion {
+#formacion{
+    padding-top: 40px;
     padding-bottom: 30px;
 }
 
@@ -168,6 +170,11 @@ body {
     margin-bottom: 20px;
 }
 
+.swiper-slide {
+    align-self: stretch;
+    height: auto;
+  }
+
 .slider-proyectos{
     display: flex;
     align-items: center;
@@ -175,6 +182,8 @@ body {
     
 
 }
+
+
 
 .lista-sliders .proyecto-slide {
     border-radius: 50%;
@@ -234,6 +243,8 @@ body {
 .proyecto-name{
     font-size: 2rem;
     font-weight: 600;
+    
+
     margin-bottom: 20px;
 }
 
@@ -321,4 +332,18 @@ body {
 
 .show {
     display: grid;
+}
+
+
+.sobre{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.sobre-p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
