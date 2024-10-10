@@ -25,51 +25,54 @@
     </header>
 
     <main class="main">
-        <h1>Mis Proyectos</h1>
-        <p>Estos son algunos de los proyectos en los que he trabajado. Si quieres saber más sobre alguno de ellos, haz click en el botón "Ver más".</p>
-        <form class="form-proyectos">
-            <label for="filtro-proyectos">Filtrar</label>
-            <select id="filtro-proyectos">
-                <option value="all">Todos</option>
-                <option value="universitario">Universitarios</option>
-                <option value="personal">Personales</option>
-            </select>
-        </form>
-        <input type="text" id="buscador" placeholder="Buscar proyecto"> 
-        <div class="grid">
-            <div class= "grid-project personal">
-                <!--<img src="media/proyecto1.jpg" alt="Proyecto 1" class="proyecto-image">-->
-                <div class="proyecto-cabecera">
-                    <h4 class="proyecto-name">Portfolio</h4>
-                    <p class="proyecto-tipo">Personal</p>
+        <section class="text">
+            <h1>Mis Proyectos</h1>
+            <p>Estos son algunos de los proyectos en los que he trabajado. Si quieres saber más sobre alguno de ellos, haz click en el botón "Ver más".</p>
+            <form class="form-proyectos">
+                <label for="filtro-proyectos">Filtrar</label>
+                <select id="filtro-proyectos">
+                    <option value="all">Todos</option>
+                    <option value="universitario">Universitarios</option>
+                    <option value="personal">Personales</option>
+                </select>
+            </form>
+            <input type="text" id="buscador" placeholder="Buscar proyecto"> 
+            <div class="grid">
+                <div class= "grid-project personal">
+                    <!--<img src="media/proyecto1.jpg" alt="Proyecto 1" class="proyecto-image">-->
+                    <div class="proyecto-cabecera">
+                        <h4 class="proyecto-name">Portfolio</h4>
+                        <p class="proyecto-tipo">Personal</p>
+                    </div>
+                    
+                    <p class="proyecto-description">¡Este mismo portfolio que estás viendo ahora mismo!</p>
+                    <button class="button-proyecto">Ver más</button>
+                    
+                </div>
+                <div class= "grid-project universitario">
+                    <!--<img src="media/proyecto2.jpg" alt="Proyecto 2" class="proyecto-image">-->
+                    <div class="proyecto-cabecera">
+                        <h4 class="proyecto-name">Nanofiles</h4>
+                        <p class="proyecto-tipo">Universitario</p>
+                    </div>    
+                    <p class="proyecto-description">Proyecto de prácticas que usa TCP y UDP para comunicar servidores y usuarios</p>
+                    <button class="button-proyecto">Ver más</button>
+                    
+                </div>
+                <div class= "grid-project universitario">
+                    <!--<img src="media/proyecto3.jpg" alt="Proyecto 3" class="proyecto-image">-->
+                    <div class="proyecto-cabecera">
+                        <h4 class="proyecto-name">Procesador de palabras</h4>
+                        <p class="proyecto-tipo">Universitario</p>
+                    </div> 
+                    <p class="proyecto-description">Un programa de python que dice las sílabas, entonación y rimas de palabras</p>
+                    <button class="button-proyecto">Ver más</button>
+                    
                 </div>
                 
-                <p class="proyecto-description">¡Este mismo portfolio que estás viendo ahora mismo!</p>
-                <button class="button-proyecto">Ver más</button>
-                
             </div>
-            <div class= "grid-project universitario">
-                <!--<img src="media/proyecto2.jpg" alt="Proyecto 2" class="proyecto-image">-->
-                <div class="proyecto-cabecera">
-                    <h4 class="proyecto-name">Nanofiles</h4>
-                    <p class="proyecto-tipo">Universitario</p>
-                </div>    
-                <p class="proyecto-description">Proyecto de prácticas que usa TCP y UDP para comunicar servidores y usuarios</p>
-                <button class="button-proyecto">Ver más</button>
-                
-            </div>
-            <div class= "grid-project universitario">
-                <!--<img src="media/proyecto3.jpg" alt="Proyecto 3" class="proyecto-image">-->
-                <div class="proyecto-cabecera">
-                    <h4 class="proyecto-name">Procesador de palabras</h4>
-                    <p class="proyecto-tipo">Universitario</p>
-                </div> 
-                <p class="proyecto-description">Un programa de python que dice las sílabas, entonación y rimas de palabras</p>
-                <button class="button-proyecto">Ver más</button>
-                
-            </div>
-            
-        </div>
+        </section>
+       
         
     </main>
 </body>

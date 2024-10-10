@@ -122,53 +122,7 @@ body {
     
 }
 
-#formacion{
-    padding-top: 40px;
-    padding-bottom: 30px;
-}
 
-#formacion h2 {
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-#formacion p {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-
-#formacion li {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    margin-left: 30px;
-}
-
-#formacion h3 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-#proyectos h2 {
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-#proyectos h3 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-#proyectos p {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
 
 .swiper-slide {
     align-self: stretch;
@@ -335,15 +289,42 @@ body {
 }
 
 
-.sobre{
-    font-size: 42px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    
+
+
+
+
+.text{
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
-.sobre-p{
+.text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text p {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+.text li {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
