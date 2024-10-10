@@ -118,13 +118,14 @@ html,body{
 
 #foto-alvaro{
     
-    min-width: 30vw;
-    height: auto;
-    width: auto;
+    
+    
+    width: 100%;
+    max-width: 40vw;
     max-height: 70vh;
-    min-width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    
+    
+    
     border-radius: 8px;
     border: 1px solid white;
     
@@ -242,7 +243,7 @@ html,body{
     padding-top: 10px 35px;
     padding-left: 10px;
     padding-right: 10px;
-    overflow: show;
+    
     width: 100%;
     
     
