@@ -330,7 +330,7 @@ body {
     margin-left: 30px;
 }
 
-.button-proyecto{
+.button-proyecto-slide{
     
     text-decoration: none;
     border: 2px solid rgb(255, 255, 255);
@@ -344,7 +344,7 @@ body {
     
 }
 
-.button-proyecto:hover {
+.button-proyecto-slide:hover {
     background-color: rgb(0, 255, 255);
     color: black;
     border-color: rgb(0, 255, 255);
