@@ -239,8 +239,10 @@ html,body{
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
-    padding: 10px 35px;
-    overflow: hidden;
+    padding-top: 10px 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: show;
     width: 100%;
     
     
