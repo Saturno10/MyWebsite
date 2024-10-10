@@ -10,7 +10,14 @@
 body {
     background-color: rgb(8, 21, 41);
     color:white;
+    display: flex;
+    flex-direction: column;
     
+    
+}
+
+html,body{
+    height: 100%;
 }
 
 .header {
@@ -60,6 +67,7 @@ body {
     flex-direction: column;
     margin-left: 15%;
     margin-right: 15%;
+    flex-direction: 1 0 auto;
 
 }
 
@@ -224,15 +232,17 @@ body {
 }
 
 .pie-web{
+    flex-shrink: 0;
     background-color: rgb(9, 31, 46);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: auto;
     padding: 10px 35px;
     overflow: hidden;
     width: 100%;
+    
     
 }
 
@@ -297,17 +307,23 @@ body {
 .text{
     padding-top: 40px;
     padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
+
 
 .text h1 {
     font-size: 50px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+
 }
 
 .text h2 {
     font-size: 45px;
     font-weight: 600;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -315,13 +331,11 @@ body {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.text p form label select {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
+
+    
 
 .text li {
     font-size: 20px;
