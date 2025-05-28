@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mi portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style.css'>
+
+    
+    <script src='../scripts.js'></script>
+</head>
+<body>
+    <header class="header">
+        <a class="button-title" href="../index.html">Álvaro</a>
+        <nav class="nav-bar">
+            
+            <button class="button-nav" onclick="topFunction()">Inicio</button>
+            <a class="button-nav" href="../index.html#formacion">Formación</a>
+            <a class="button-nav" href="projects.html">Proyectos</a>
+            <a class="button-nav" href="about.html">Sobre el Nerd</a>
+            <a class="button-nav" href="#contacto">Contacto</a>
+            <a class="button-nav" href="../media/AlvaroAledoCV.pdf" target="_blank">Descargar CV</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="text">
+            <h1>nanoFiles</h1>
+            <p>nanoFiles es un proyecto que hice en mi segundo año de carrera en la asignatura <i>Redes de Comunicaciones</i>. En este, se aplican conocimientos sobre los protocolos TCP y UDP, sobre las direcciones IP y Java
+                para crear un sistema muy parecido a los torrents que usamos en nuestro día a día.
+            </p>
+            
+            
+            <p>El proyecto parte de dos programas, el cliente nanoFiles y el Directorio. El Directorio es un programa servidor que sirve como ente coordinador. Si un cliente se registra en el mismo, podrá ver quienes más están conectados,
+                los archivos que están compartidos públicamente y usar los mapeos que ofrece el servidor para disponer de comandos más cómodos
+                (por ejemplo, puedes descargar de un usuario en particular un fichero sin tener que escribir su IP, sólamente tendrías que poner su nombre de usuario). De esta forma, los clientes nanoFiles pueden seguir funcionando de manera independiente al Directorio
+                aunque sea de una forma básica.
+            </p>
+            
+
+            <p>Al momento de iniciar el cliente nanoFiles, puedes indicarle una carpeta o seleccionará/creará la predeterminada. En ella, se encontrarán todos los ficheros con los que trabaja y descargará los ficheros deseados en su directorio de trabajo. Para
+                ver más detenidamente el funcionamiento de nanoFiles, considera mirar en su repositorio público su código fuente y documentación.
+            </p>
+
+
+            
+
+        </section>
+       
+        
+    </main>
+
+    <footer class="pie-web">
+        
+        <a class="button-social-media" target="_blank" rel="noopener noreferrer" href="https://github.com/Saturno10">
+            <img class="social-media-logo" src="../media/github.png" alt="github" width="35">
+        </a>
+        <a class="button-social-media" target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/alvaro-aledo-tornero">
+            <img class="social-media-logo" src="../media/linkedin.png" alt="linkedin" width="35"> 
+        </a>
+        <a href="about.html" style="text-decoration: none; color: white;">Sobre el Nerd</a>
+        <!-- 
+            This <select> element allows users to choose a language option.
+            The element has an id attribute set to "idioma", which can be used to reference it in JavaScript or CSS.
+            Example usage:
+            <select id="idioma">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select>
+        -->
+        
+        <div>
+            <small>Copyright © 2024</small>
+            <small>Creado por: Álvaro Aledo Tornero</small>
+        </div>
+        
+        
+    </footer>
+</body>
+</html>
