@@ -3,9 +3,9 @@ Welcome to my personal website. I will be building it and getting into web devel
 Feel free to take inspiration from the source code as long as you don't use my personal information.
 
 ## TO-DO
-[] Dark mode switch
-[] English translation
-[] Project sort by
+- [ ] Dark mode switch
+- [ ] English translation
+- [ ] Project sort by
 
 ## Licence
 - The **source code** of this portfolio is licensed under the [MIT License](./LICENSE.md).  
